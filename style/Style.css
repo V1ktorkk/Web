@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: url("../clothes.jpeg") center no-repeat;
+    background-size: cover;
+
+}
+section{
+    font-weight: bold;
+}
+.logo{
+    position: center;
+}
+nav{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 13px;
+    right: 1000px;
+    background-size: cover;
+}
+main{
+    background: black;
+    color: azure;
+}
+.ShopList{
+    position: center;
+    text-transform: uppercase;
+    right: auto;
+}
+article{
+    position: static;
+    line-height: 100.2px;
+}
+.money{
+    line-position: absolute;
+    color: #B0733B;
+}
+.code{
+    height: border-box;
+}
