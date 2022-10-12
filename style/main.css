@@ -7,17 +7,23 @@ main{
 
 .news{
     display: flex;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 1%;
+    justify-content: space-evenly;
 }
 .News_wrapper{
-    margin-top: 30px;
+    margin-top: 2%;
     border: 1px solid black;
 }
 
 .item > a >  img{
+    max-width: 528px;
     width: 528px;
+    max-height: 378px;
     height: 378px;
+}
+
+.item > p{
+    text-align: left;
 }
 
 .New_clothes{
@@ -42,4 +48,22 @@ main{
 .content{
     margin-top: 100px;
     text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .item > a > img {
+        max-width: 350px;
+        width: 350px;
+        max-height: 270px;
+        height: 270px;
+    }
+
+    @media screen and (max-width: 1500px) {
+        .items > a > img {
+            max-width: 150px;
+            width: 150px;
+            max-height: 200px;
+            height: 200px;
+        }
+    }
 }
