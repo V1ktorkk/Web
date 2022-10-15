@@ -1,5 +1,5 @@
 main{
-    color: black;
+    color: #A65353;
     max-width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -9,10 +9,13 @@ main{
     display: flex;
     margin-top: 1%;
     justify-content: space-evenly;
+    color: black;
 }
 .News_wrapper{
     margin-top: 2%;
     border: 1px solid black;
+    border-radius: 2%;
+
 }
 
 .item > a >  img{
@@ -28,7 +31,6 @@ main{
 
 .New_clothes{
     margin-top: 30px;
-    border: 1px solid black;
 }
 .new{
     margin-top: 40px;
