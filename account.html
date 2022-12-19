@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
   <link rel="stylesheet " href="style_account/style.css">
     <title>account</title>
+    <script src="scripts/navigation.js"></script>
 </head>
 <body>
 
@@ -18,14 +19,76 @@
         Buy what you want
     </div>
     <div class="nav">
-        <a href="#" class = "trash "><img src="pictures/trashhh.svg" alt="trash"> </a>
-        <a href="#" class = "search"><img src="pictures/search.svg" alt="search"> </a>
+        <a href="#" class = "ac_icons "><img src="pictures/trashhh.svg" alt="ac_icons"> </a>
+        <a href="#" class = "ac_icons"><img src="pictures/search.svg" alt="ac_icons"> </a>
+        <a href="#" id="accounts" class="ac_icons"><img src="/pictures/account.svg" > </a>
     </div>
 </header>
 
 <main>
+    <h1>Избранные товары</h1>
     <link rel="stylesheet " href="style_account/main.css">
-
+    <ul class="products_clearfix">
+        <li class="product-wrapper">
+            <div class="product-item">
+                <img src="pictures/kurtka.jpeg">
+                <div class="product-list">
+                    <h3>Куртка черная</h3>
+                    <span class="price">₽ 5999</span>
+                    <a href="" class="button">В корзину</a>
+                </div>
+            </div>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-item">
+                <img src="pictures/t-shirt.jpeg">
+                <div class="product-list">
+                    <h3>майка converse</h3>
+                    <span class="price">₽ 1499</span>
+                    <a href="" class="button">В корзину</a>
+                </div>
+            </div>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-item">
+                <img src="pictures/hoodie.jpeg">
+                <div class="product-list">
+                    <h3>Желтое худи </h3>
+                    <span class="price">₽ 2500</span>
+                    <a href="" class="button">В корзину</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <h1> Недавние заказы</h1>
+    <ul class="products_clearfix">
+        <li class="product-wrapper">
+            <div class="product-item">
+                <img src="pictures/kurtka.jpeg">
+                <div class="product-list">
+                    <h3>Куртка черная
+                      <p>Размер: XL
+                      </p>
+                        <p> Дата заказа: 12.10.2002</p>
+                        <p> Заказ выдан: 15.10.2002</p>
+                    </h3>
+                </div>
+            </div>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-item">
+                <img src="pictures/t-shirt.jpeg">
+                <div class="product-list">
+                    <h3>Майка Converse
+                        <p>Размер: XXL
+                        </p>
+                        <p> Дата заказа: 10.10.2002</p>
+                        <p> Заказ выдан: 20.10.2002</p>
+                    </h3>
+                </div>
+            </div>
+        </li>
+    </ul>
 </main>
 
 <footer >
@@ -55,7 +118,6 @@
             <p> Оплата </p>
             <p> Так так так</p>
         </div>
-
     </div>
 </footer>
 </body>
