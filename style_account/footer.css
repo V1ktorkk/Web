@@ -4,9 +4,7 @@ footer{
     background: #A65353;
     display: flex;
     justify-content: space-between;
-    cursor: default;
     color: white
-
 }
 
 .our_support{
@@ -38,18 +36,4 @@ footer{
     width: 40px;
     height: 40px;
     display: flex;
-}
-.our_support > p{
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-.our_support > p:hover{
-    color: white;
-}
-.info > p{
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-.info > p:hover{
-    color: white;
 }

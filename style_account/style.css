@@ -3,6 +3,7 @@ body{
     background-size: cover;
     box-sizing: border-box;
     margin: 0;
+    padding-top: 200px;
 }
 
 h1, h2, h3, p {
