@@ -1,7 +1,9 @@
 function ready() {
     if (document.location.href.includes("/account.html")){
         document.getElementById("accounts").classList.add("click_account")
-        //document.getElementById("accounts").setAttribute("src", "/pictures/click_account.svg")
+    }
+    if (document.location.href.includes("/magazine.html")){
+        document.getElementById("click_trash").setAttribute("src", "/pictures/trashhh.svg")
     }
 }
 

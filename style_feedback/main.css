@@ -1,12 +1,17 @@
-main{
-    color: #A65353;
-    max-width: 80%;
-    height: 100%;
-    margin: 0 auto;
-}
+
 * {
     box-sizing: border-box;
 }
+
+
+
+main{
+    color: #A65353;
+    max-width: 80%;
+    min-height: calc(100vh - 80px);
+    margin: 0 auto;
+}
+
 .product-item {
     width: 300px;
     text-align: center;
@@ -15,17 +20,21 @@ main{
     background: white;
     transition: .3s ease-in;
 }
+
 .product-item:hover {
     border-bottom: 2px solid #fc5a5a;
 }
+
 .product-item img {
     display: flex;
     width: 100%;
 }
+
 .product-list {
     background: #fafafa;
     padding: 15px 0;
 }
+
 .product-list h3 {
     font-size: 18px;
     font-weight: 400;
@@ -74,4 +83,11 @@ h1{
     .items{
         flex-direction: column;
     }
+}
+
+.interest-container__interest{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
 }

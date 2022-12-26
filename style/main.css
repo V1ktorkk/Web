@@ -11,12 +11,6 @@ main{
     justify-content: space-evenly;
     color: black;
 }
-.News_wrapper{
-    margin-top: 2%;
-    border: 1px solid black;
-    border-radius: 2%;
-
-}
 
 .item > a >  img{
     max-width: 528px;
@@ -26,7 +20,8 @@ main{
 }
 
 .item > p{
-    text-align: left;
+    text-align: center;
+    font-size: 1.5vw;
 }
 
 .New_clothes{
@@ -43,8 +38,8 @@ main{
     margin-right: 70px;
 }
 .items{
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .content{
@@ -52,32 +47,13 @@ main{
     text-align: center;
 }
 
-@media screen and (max-width: 1500px) {
-    .item > a > img {
-        max-width: 350px;
-        width: 350px;
-        max-height: 270px;
-        height: 270px;
-    }
-    .p{
-        font-size: small;
-    }
-    .items > a > img {
-        max-width: 160px;
-        width: 160px;
-        max-height: 180px;
-        height: 180px;
-    }
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1300px) {
         .item > a > img {
             max-width: 250px;
             width: 250px;
             max-height: 200px;
             height: 200px;
-        }
-        p{
-            font-size: 10pt;
         }
         .items > a > img {
             max-width: 120px;
@@ -86,23 +62,24 @@ main{
             height: 150px;
         }
 
-        @media screen and (max-width: 700px) {
+        @media screen and (max-width: 800px) {
             .item > a > img {
-                max-width: 190px;
-                width: 190px;
-                max-height: 190px;
-                height: 190px;
-            }
-
-            p {
-                font-size: 8pt;
+                max-width: 250px;
+                width: 250px;
+                max-height: 200px;
+                height: 200px;
             }
             .items > a > img {
-                max-width: 80px;
-                width: 80px;
-                max-height: 100px;
-                height: 100px;
+                max-width: 120px;
+                width: 120px;
+                max-height: 150px;
+                height: 150px;
+            }
+            .news {
+                flex-direction: column;
+            }
+            .items{
+                flex-direction: column;
             }
         }
     }
-}
