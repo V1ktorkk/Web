@@ -74,6 +74,7 @@ main{
 
 h1{
     text-align: center;
+    margin: 20px;
 }
 
 @media screen and (max-width: 1150px) {

@@ -5,6 +5,7 @@
     <link rel="stylesheet " href="style/Style.css">
     <title>ExclusiveBrandShop</title>
     <script src="scripts/script_everypage.js"></script>
+    <script src="scripts/fetching.js"></script>
 </head>
 <body>
 
@@ -30,7 +31,7 @@
     <link rel="stylesheet " href="style/main.css">
     <div class="content">
         <h1> Свежие новости моды </h1>
-        <div class="News_wrapper">
+        <div class="News_wrapper" id="news_wrapper">
             <div class="news">
                 <div class = "item">
                     <p> Helly Hansen выпустили новые куртки на сезон 22/23 </p>
@@ -50,7 +51,11 @@
                 <div class = "item">
                     <p> Как правильно подбирать цвета: 10 советов </p>
                     <a href = "https://www.make-your-style.ru/2017/03/06/tsvet-sochetanie/"><img src="pictures/MyStyle.jpeg" alt = "my_style"></a>
+                </div>
             </div>
+            <div class="lds-ring" id="preloader"><div></div><div></div><div></div><div></div></div>
+            <div id="fetching__error">
+                <h3> Something went wrong! </h3>
             </div>
         </div>
         <h1 class ="new"> Новинки нашего сайта </h1>
